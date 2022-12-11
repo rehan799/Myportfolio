@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js">
   </head>
   <body>
     <!-- header section starts -->
@@ -41,7 +42,7 @@
     <section id="home" class="home">
       <div class="content">
         <h3>rehan mian</h3>
-        <p>I am a front-end developer</p>
+        <p>I am a <span class="typing-text"></span></p>
         <a href="#" class="btn">download CV</a>
       </div>
 
@@ -255,5 +256,20 @@
 
        <!-- custom js file link -->
        <script src="script.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+       <script>
+         var type = new Typed(".typing-text", {
+           strings: [
+
+             
+             "front end developer",
+             "react developer",
+             "web developer",
+             "java developer",
+           ],
+           typeSpeed: 120,
+           loop: true,
+         });
+       </script>
   </body>
 </html>

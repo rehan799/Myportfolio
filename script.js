@@ -21,3 +21,13 @@ else{
     document.body.classList.remove('active');
 }
 }
+var type = new Typed(".typing-text", {
+    strings: [
+      "web developer",
+      "front end developer",
+      "react developer",
+      "java developer",
+    ],
+    typeSpeed: 120,
+    loop: true,
+  });
